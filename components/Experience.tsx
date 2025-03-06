@@ -37,6 +37,9 @@ const Experience = () => {
               <p className="text-start text-white-100 mt-3 font-semibold">
                 {workExperience[0].desc}
               </p>
+              <p className="text-start text-white-100 mt-3 font-semibold">
+                {workExperience[0].time}
+              </p>
             </div>
           </div>
         </Button>
