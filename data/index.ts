@@ -208,12 +208,12 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      link:"https://github.com/pranavi2",
+      link:"https://github.com/akashgarine",
     },
     
     {
       id: 2,
       img: "/link.svg",
-      link:"https://www.linkedin.com/in/pranavi-t-69aa84254/",
+      link:"https://www.linkedin.com/in/akashgarine/",
     },
   ];
