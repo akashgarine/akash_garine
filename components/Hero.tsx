@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { socialMedia } from "@/data";
 
 const Hero = () => {
   return (
@@ -30,13 +31,13 @@ const Hero = () => {
        */}
       <div
         className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
-       absolute top-0 left-0 flex items-center justify-center"
+      absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
         <div
           // chnage the bg to bg-black-100, so it matches the bg color and will blend in
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
-         bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+        bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
       </div>
 
@@ -56,16 +57,23 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-             Crafting Intuitive Interfaces for Tomorrow&apos;s Digital World
+          <p className="text-center md:tracking-wider mb-4 mt-5 text-sm md:text-lg lg:text-2xl">
+            Let&apos;s get in touch
           </p>
-         
           <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
+          <div className="flex items-center md:gap-3 gap-6">
+          {socialMedia.map((info) => (
+            <a
+              key={info.id}
+              href={info.link} // This makes the icon clickable
+              target="_blank" // Opens the link in a new tab
+              rel="noopener noreferrer" // Security feature when opening links in new tabs
+              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+            >
+              <img src={info.img} alt="icons" width={30} height={30} />
+            </a>
+          ))}
+        </div>
           </a>
         </div>
       </div>

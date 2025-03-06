@@ -217,4 +217,13 @@ export const navItems = [
       img: "/link.svg",
       link:"https://www.linkedin.com/in/akashgarine/",
     },
+    {
+      id:3,
+      img: "/X_logo.svg",
+      link:"https://x.com/akash_garine",
+    },
+    {id: 4,
+      img: "/insta.svg",
+      link:"https://www.instagram.com/akash_garine/",
+    },
   ];
