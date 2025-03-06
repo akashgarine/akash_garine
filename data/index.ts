@@ -10,12 +10,12 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Learning and applying knowledge through hands-on projects ",
-      description: "",
+      title: "My tech stack",
+      description: "I constantly try to improve",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-      imgClassName: "w-full h-full",
-      titleClassName: "justify-end",
-      img: "/b1.svg",
+      imgClassName: "",
+      titleClassName: "justify-center",
+      img: "",
       spareImg: "",
     },
     {
@@ -30,11 +30,11 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "Learning and applying knowledge through hands-on projects",
+      description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
-      titleClassName: "justify-center",
+      titleClassName: "justify-end",
       img: "",
       spareImg: "",
     },
@@ -74,34 +74,34 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "YouTube Front-end Clone",
-      des: "Independently designed and implemented a front-end clone of the YouTube interface using HTML, CSS, and React.",
+      title: "CodeCatalyst",
+      des: "A platform to enhance competitive programming skills.",
       img: "/p1.jpeg",
-      iconLists: ["/html3.png", "/css3.png", "/react.svg", "/github1.png"],
+      iconLists: ["/react.svg", "/nodejs.svg", "/exjs.png", "/mongodb.svg"],
       
     },
     {
       id: 2,
-      title: "Emergency SOS Women Safety App",
-      des: "Developed and launched an Emergency SOS application with real-time GPS tracking and emergency alert features using Flutter and Firebase.",
+      title: "CivicSphere-Sustainable Communities  ",
+      des: "A platform that enables contributions to sustainability initiatives.",
       img: "/p2.jpg",
-      iconLists: ["/flutter.svg", "/cloud.svg", "/gps.svg"],
+      iconLists: ["/react.svg", "/nodejs.svg", "/exjs.png", "/mongodb.svg","/gps.svg","/cloud.svg"],
     
     },
     {
       id: 3,
-      title: "AI-Based Flappy Bird Game",
-      des: "Created an AI-driven Flappy Bird game using Python and the NEAT algorithm, implementing game mechanics and neural network training.",
+      title: "FarmOne",
+      des: "Provides agricultural support and resources to increase farmers' productivity and profitability.",
       img: "/p3.jpeg",
-      iconLists: ["/python.svg", "/neat.svg"],
+      iconLists: ["/react.svg", "/nodejs.svg", "/exjs.png", "/mongodb.svg"],
       
     },
     {
       id: 4,
-      title: "QuickReserve - Full-Stack Booking App",
-      des: "Developed a full-stack booking application called QuickReserve. The app allows users to browse, book, and manage reservations for hotels, flights, and rental cars. Built with a modern tech stack including React, Node.js, Express, and MongoDB, with a responsive user interface and secure payment integration.",
+      title: "Expenses-Tracker",
+      des: "Developed a full-stack application Helps monitor and manage income and expenses for better financial planning.",
       img: "/p4.jpeg",
-      iconLists: ["/react.svg", "/nodejs.svg", "/exjs.png", "/mongodb.svg"],
+      iconLists: ["/react.svg", "/nodejs.svg", "/exjs.png", "/mongodb.svg","/Chart.js_logo.svg"],
       
       
     },
@@ -176,8 +176,9 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using HTML, CSS, Javascript, enhancing interactivity.",
+      title: "Backend Developer Intern",
+      desc: "Developed an internal web platform using React, Node.js, and MongoDB to digitalize operations for NIEPID.",
+      time: "July 2024 - October 2024",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
