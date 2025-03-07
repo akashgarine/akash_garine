@@ -84,7 +84,7 @@ export const navItems = [
       id: 2,
       title: "CivicSphere-Sustainable Communities  ",
       des: "A platform that enables contributions to sustainability initiatives.",
-      img: "/p2.jpg",
+      img: "/p2.png",
       iconLists: ["/react.svg", "/nodejs.svg", "/exjs.png", "/mongodb.svg","/gps.svg","/cloud.svg"],
     
     },
@@ -92,7 +92,7 @@ export const navItems = [
       id: 3,
       title: "FarmOne",
       des: "Provides agricultural support and resources to increase farmers' productivity and profitability.",
-      img: "/p3.jpeg",
+      img: "/p3.png",
       iconLists: ["/react.svg", "/nodejs.svg", "/exjs.png", "/mongodb.svg"],
       
     },
